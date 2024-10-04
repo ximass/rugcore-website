@@ -2,7 +2,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.hero {
+.corpo {
     background: rgb(255,215,0);
     background: linear-gradient(180deg, rgba(255,215,0,1) 43%, rgba(240,240,235,1) 86%);
     color: #333;
