@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diferenciais - RugCore</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <div id="header-placeholder"></div>
+
+    <!-- Conteúdo da página Diferenciais -->
+    <section class="container mt-5 pt-5">
+        <h1 class="mt-5">Nossos Diferenciais</h1>
+        <p>Na RugCore, nos diferenciamos pela inovação e pela qualidade em cada solução que oferecemos. Nossos principais diferenciais incluem:</p>
+        <ul>
+            <li><strong>Foco no Cliente</strong> - Todas as nossas soluções são personalizadas para atender às necessidades específicas de cada cliente.</li>
+            <li><strong>Equipe Altamente Qualificada</strong> - Contamos com profissionais de tecnologia especializados e com vasta experiência de mercado.</li>
+            <li><strong>Inovação Constante</strong> - Estamos sempre em busca das tecnologias mais recentes para garantir que nossos clientes estejam à frente da concorrência.</li>
+            <li><strong>Atendimento Ágil e Eficiente</strong> - Prezamos por um atendimento rápido e suporte contínuo para nossos clientes.</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        fetch('header.html')
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById('header-placeholder').innerHTML = data;
+          });
+
+        fetch('footer.html')
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById('footer-placeholder').innerHTML = data;
+          });
+      });
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

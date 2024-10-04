@@ -1,0 +1,75 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero {
+    background: rgb(255,215,0);
+    background: linear-gradient(180deg, rgba(255,215,0,1) 43%, rgba(240,240,235,1) 86%);
+    color: #333;
+    height: 100vh;
+}
+
+.header-logo {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+.header-company-name {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.navbar {
+    background-color: #FFD700 !important;
+}
+
+.navbar .nav-link {
+    padding: 20px;
+    color: #333 !important;
+}
+
+.navbar .nav-item {
+    padding: 0px 15px;
+}
+
+.footer {
+    background-color: #f0f0eb;
+    color: #333;
+    padding: 20px 0;
+}
+
+.carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+}
+
+footer a {
+    color: #FFD700;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+.text-light {
+    color: #fff !important;
+}
+
+.bg-primary {
+    background-color: #FFD700 !important;
+}
+
+.bg-secondary {
+    background-color: #f0f0eb !important;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p, a, li {
+    font-family: 'Open Sans', sans-serif;
+}

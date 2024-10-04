@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soluções - RugCore</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <div id="header-placeholder"></div>
+
+    <!-- Conteúdo da página Soluções -->
+    <section class="container mt-5 pt-5">
+        <h1 class="mt-5">Nossas Soluções</h1>
+        <p>A RugCore oferece uma ampla gama de soluções tecnológicas voltadas para otimização de processos e aumento de eficiência operacional. Conheça algumas de nossas principais soluções:</p>
+        <ul>
+            <li><strong>Plataforma de Gestão Empresarial</strong> - Um sistema completo de ERP para automatizar processos e integrar departamentos.</li>
+            <li><strong>Soluções em Nuvem</strong> - Ferramentas que permitem maior flexibilidade e segurança para os dados da sua empresa.</li>
+            <li><strong>Automação de Processos</strong> - Implementamos soluções para otimizar tarefas repetitivas e reduzir o tempo de operação.</li>
+            <li><strong>Consultoria em Tecnologia</strong> - Oferecemos assessoria para empresas que buscam melhorar sua infraestrutura digital.</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        fetch('header.html')
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById('header-placeholder').innerHTML = data;
+          });
+
+        fetch('footer.html')
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById('footer-placeholder').innerHTML = data;
+          });
+      });
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

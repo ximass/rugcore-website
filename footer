@@ -1,0 +1,11 @@
+<footer class="bg-secondary text-light py-4">
+  <div class="container text-center">
+    <p>Endereço: Rua Fictícia, 123, Cidade Imaginária - País</p>
+    <p>Email: contato@rugcore.com | Telefone: (00) 0000-0000</p>
+    <div>
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </div>
+</footer>
