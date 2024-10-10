@@ -73,3 +73,73 @@ h1, h2, h3 {
 p, a, li {
     font-family: 'Open Sans', sans-serif;
 }
+
+/* Estilo do Header */
+#header {
+    background-color: #1f1f1f; /* Mantém o fundo escuro */
+    border-radius: 30px; /* Borda arredondada nas extremidades */
+    padding: 10px 20px; /* Ajuste no espaçamento interno */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Sombra mais destacada */
+    /* Distância do topo */
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Mantém o tamanho do nome da empresa */
+    color: white;
+    font-weight: bold;
+}
+
+.header-logo {
+    width: 40px;
+    height: 40px;
+}
+
+.navbar-nav .nav-link {
+    color: white; /* Cor branca para os links */
+    margin-left: 20px; /* Espaçamento entre os itens do menu */
+    text-transform: uppercase; /* Deixa os links do menu em caixa alta */
+    font-size: 1rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #00bcd4; /* Cor de destaque no hover */
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+footer {
+    background-color: #343a40; /* Um tom escuro de cinza */
+
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.5); /* Sombra azul clara */
+    padding: 20px 0; /* Espaçamento interno do footer */
+}
+
+footer p {
+    color: #000; /* Cor do texto para preto */
+    margin: 0.5rem 0; /* Espaçamento para os parágrafos */
+}
+
+.social-icons {
+    margin: 1rem 0;
+}
+
+.social-icon {
+    color: #000; /* Cor do ícone para preto */
+    font-size: 1.5rem; /* Tamanho do ícone */
+    margin: 0 10px; /* Espaçamento entre os ícones */
+    transition: color 0.3s; /* Transição suave para efeito hover */
+}
+
+.social-icon:hover {
+    color: #007bff; /* Cor ao passar o mouse */
+}
+
+footer a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+}

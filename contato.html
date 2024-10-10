@@ -6,21 +6,23 @@
     <title>Contato - RugCore</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/conteudo.css">
 </head>
 <body>
     <!-- Header -->
     <div id="header-placeholder"></div>
 
     <section class="corpo">
-        <div class="container mt-5 pt-5">
-            <h1 class="mt-5">Entre em Contato Conosco</h1>
-            <p>Se você tem alguma dúvida ou gostaria de saber mais sobre nossas soluções, entre em contato conosco pelos canais abaixo:</p>
-            <ul>
+        <div class="container centralizar mt-5 pt-5">
+          <div id="about-container">
+            <h1 id="about-title">Entre em Contato Conosco</h1>
+            <p id="about-text-1">Se você tem alguma dúvida ou gostaria de saber mais sobre nossas soluções, entre em contato conosco pelos canais abaixo:</p>
+            <ul id="about-text-2">
                 <li><strong>Email:</strong> contato@rugcore.com</li>
                 <li><strong>Telefone:</strong> (00) 0000-0000</li>
             </ul>
-            <h2 class="mt-4">Formulário de Contato</h2>
-            <form action="enviar_contato.php" method="POST">
+            <h2 id="about-second-title">Formulário de Contato</h2>
+            <form id="about-text-1" action="enviar_contato.php" method="POST">
                 <div class="form-group">
                     <label for="nome">Nome</label>
                     <input type="text" class="form-control" id="nome" name="nome" required>
@@ -35,6 +37,7 @@
                 </div>
                 <button type="submit" class="btn btn-primary">Enviar</button>
             </form>
+          </div>
         </div>
     </section>
 
