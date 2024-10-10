@@ -77,7 +77,6 @@ p, a, li {
 /* Estilo do Header */
 #header {
     background-color: #1f1f1f; /* Mantém o fundo escuro */
-    border-radius: 30px; /* Borda arredondada nas extremidades */
     padding: 10px 20px; /* Ajuste no espaçamento interno */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Sombra mais destacada */
     /* Distância do topo */
