@@ -10,8 +10,8 @@ body {
 }
 
 .header-logo {
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     margin-right: 10px;
 }
 
@@ -86,11 +86,6 @@ p, a, li {
     font-size: 1.5rem; /* Mantém o tamanho do nome da empresa */
     color: white;
     font-weight: bold;
-}
-
-.header-logo {
-    width: 40px;
-    height: 40px;
 }
 
 .navbar-nav .nav-link {
